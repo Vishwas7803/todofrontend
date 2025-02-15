@@ -1,11 +1,11 @@
 import React from "react";
-import "./footer.css";
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="container-fluid p-3 d-flex justify-content-center align-items-center text-white">
+    <div className="footer-container">
       <h4>Todo</h4>&nbsp;
-      <p className="m-0">© THECODEMASTER</p>
+      <p>© THECODEMASTER</p>
     </div>
   );
 };
